@@ -4,8 +4,8 @@ import java.lang.Math;
 
 public class Armstrong {
     public static void main(String[] args) {
-        int a = 407,n,sum=0,rem,temp;
-        n=order(a);
+        int a = 407,sum=0,rem,temp;
+        // n=order(a)
 
         temp = a;
         while(temp != 0)

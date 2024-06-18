@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PowerNumber {
 
     public static void main(String[] args) {
+        
         int num,pow=1;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number  : ");
@@ -18,6 +19,8 @@ public class PowerNumber {
         }
 
         System.out.println(pow);
+        
+        sc.close();
 
     }
     
